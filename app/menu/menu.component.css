@@ -1,0 +1,28 @@
+h3 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.dropdown {
+    width: 60%;
+    margin-left: 40.5%;
+    margin-top: 3%;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+select {
+    width: 20%;
+    margin-right: 3%;
+    display: inline;
+}
+
+.tableDiv {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4% ;
+}
+

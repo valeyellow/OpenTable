@@ -1,0 +1,18 @@
+h3 {
+	text-align: center;
+	padding: 18px;
+}
+
+.loginForm {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 3%;
+}
+
+.error {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+}

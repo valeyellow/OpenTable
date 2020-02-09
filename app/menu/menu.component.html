@@ -1,0 +1,26 @@
+<h3>Choose your desired cuisine from the list</h3>
+<div class="dropdown">
+    <select [(ngModel)] = "selectedCuisine" class="form-control"> 
+        <option *ngFor = "let c of uniqueList">{{ c }}</option>
+    </select>
+    <button class="btn btn-primary" (click) = "searchCuisines()">Search</button>
+</div>
+<div class="tableDiv">
+    <p>Details of restaurants serving the selected cuisine</p>
+    <table class="table" border="2">
+        <thead class="table table-dark">
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>Cuisine</th>
+            </tr>
+        </thead>
+        <tbody class="table table-light">
+            <tr *ngFor = "let restaurant of restaurantList">
+                <td>{{ restaurant.name }}</td>
+                <td>{{ restaurant.city }}</td>
+                <td>{{ restaurant.cuisine }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
